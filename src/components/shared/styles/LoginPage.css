@@ -1,0 +1,44 @@
+.loginPage__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid saddlebrown; */
+}
+
+.loginPage__title {
+   color: #fa4006; 
+   padding: 0.5em;
+   font-weight: 500;
+}
+
+.loginPage__label {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5em;
+}
+
+.loginPage__span {
+    padding-left: 0.7em;
+    padding-bottom: 0.3em;
+}
+
+.loginPage__btn {
+    margin: 0.7em auto 0;
+    font-size: 1rem;
+    font-weight: 500;
+    display: block;
+    border: none;
+    padding: 0.3em 0;
+    width: 8em;
+    background-color: #fa4006;
+    color: white;
+    border-radius: 0.5em;
+    transition: transform 100ms ease,
+                box-shadow 100ms ease;
+}
+
+.loginPage__btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 1em #0005;
+}

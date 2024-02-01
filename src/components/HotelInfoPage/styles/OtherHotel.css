@@ -1,0 +1,15 @@
+.otherHotel__title {
+    margin-bottom: 1em;
+}
+
+.otherHotel__span {
+    color: #fa4006;
+}
+
+.otherHotel__container {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+}

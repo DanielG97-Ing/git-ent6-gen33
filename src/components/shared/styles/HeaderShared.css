@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    padding: 1em 2em 1.5em;
+    width: 100%;
+    background-color: #fff;
+    justify-content: space-between;
+    align-items: baseline;
+    box-shadow: 0 0 1em #0003;
+    margin-bottom: 1.5em;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+}
+
+.header__title {
+    font-weight: bold;
+}
+
+a {
+    text-shadow: 0.1em 0.1em #0002;
+    text-decoration: none;
+    color: #444;
+}
+
+.header__span-title {
+    color: #fa4006;
+}
+
+.header__list {
+    display: flex;
+    gap: 1.5em;
+}

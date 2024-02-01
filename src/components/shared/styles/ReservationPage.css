@@ -1,0 +1,25 @@
+.reserveCard__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 2em;
+}
+
+.reservatinPage {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.reservation__title {
+    font-weight: 700;
+    font-size: 2em;
+    color: #fa4006;
+    margin: 2em 0;
+}
+
+.formReview__title {
+    gap: 1.5em;
+}

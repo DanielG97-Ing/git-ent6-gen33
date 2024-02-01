@@ -1,0 +1,17 @@
+label{
+    display: block;
+}
+
+.reserve__rate {
+    color: rgb(40, 40, 239);
+    cursor: pointer;
+}
+
+.reserve__rate:hover {
+    
+}
+
+.app__hotel {
+    padding-top: 100px;
+}
+

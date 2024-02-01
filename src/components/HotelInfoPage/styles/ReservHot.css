@@ -1,0 +1,15 @@
+.reservHotel__title {
+    color: #fa4006;
+    margin-bottom: 1em;
+}
+
+.reservHotel__form {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 200px 200px;
+}
+
+.btn2 {
+    margin-left: 0;
+    margin-bottom: 1em;
+}
